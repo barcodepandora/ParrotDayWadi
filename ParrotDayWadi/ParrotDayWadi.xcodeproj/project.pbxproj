@@ -18,6 +18,7 @@
 		56B56EA92BFBB46A000D0FDA /* IndiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B56EA82BFBB46A000D0FDA /* IndiViewModel.swift */; };
 		56B56EAB2BFBB504000D0FDA /* IndiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B56EAA2BFBB504000D0FDA /* IndiView.swift */; };
 		56B56EAD2BFBB6F3000D0FDA /* IndiUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B56EAC2BFBB6F3000D0FDA /* IndiUseCase.swift */; };
+		56B56EB02BFBE897000D0FDA /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B56EAF2BFBE897000D0FDA /* APIRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		56B56EA82BFBB46A000D0FDA /* IndiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndiViewModel.swift; sourceTree = "<group>"; };
 		56B56EAA2BFBB504000D0FDA /* IndiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndiView.swift; sourceTree = "<group>"; };
 		56B56EAC2BFBB6F3000D0FDA /* IndiUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndiUseCase.swift; sourceTree = "<group>"; };
+		56B56EAF2BFBE897000D0FDA /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		56946A362BFB90F3002C9FB6 /* ParrotDayWadi */ = {
 			isa = PBXGroup;
 			children = (
+				56B56EAE2BFBE84A000D0FDA /* Networking */,
 				56946A612BFB943F002C9FB6 /* Model */,
 				56B56EA72BFBB14E000D0FDA /* UseCase */,
 				56B56EA62BFBB144000D0FDA /* ViewModel */,
@@ -169,6 +172,14 @@
 				56B56EAC2BFBB6F3000D0FDA /* IndiUseCase.swift */,
 			);
 			path = UseCase;
+			sourceTree = "<group>";
+		};
+		56B56EAE2BFBE84A000D0FDA /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				56B56EAF2BFBE897000D0FDA /* APIRouter.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56B56EB02BFBE897000D0FDA /* APIRouter.swift in Sources */,
 				56946A632BFB9454002C9FB6 /* Indi.swift in Sources */,
 				56946A3A2BFB90F3002C9FB6 /* ContentView.swift in Sources */,
 				56B56EA92BFBB46A000D0FDA /* IndiViewModel.swift in Sources */,

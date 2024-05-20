@@ -26,3 +26,8 @@ struct Indi {
 extension Indi: Codable {
     
 }
+
+extension Indi: Identifiable {
+    
+}
+

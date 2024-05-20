@@ -14,7 +14,7 @@ protocol IndiViewModelProtocol {
 class IndiViewModel: IndiViewModelProtocol, ObservableObject {
     
     @Published var indies: [Indi] = []
-    private let  useCase: IndiUseCaseProtocol?
+    private let useCase: IndiUseCaseProtocol?
     
     init(useCase: IndiUseCaseProtocol = IndiUseCase()) {
         self.useCase = useCase

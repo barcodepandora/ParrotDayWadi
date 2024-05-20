@@ -18,6 +18,16 @@ struct IndiView: View {
                 await theViewModel.deliver()
             }
         }
+        VStack {
+            List(theViewModel.indies) { indi in
+                VStack {
+                    Text(indi.name!)
+                }
+            }
+            .task {
+                await theViewModel.deliver()
+            }
+        }
     }
 }
 
