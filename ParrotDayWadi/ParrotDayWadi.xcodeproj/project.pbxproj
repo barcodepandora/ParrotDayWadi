@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56946A382BFB90F3002C9FB6 /* ParrotDayWadiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56946A372BFB90F3002C9FB6 /* ParrotDayWadiApp.swift */; };
+		56946A3A2BFB90F3002C9FB6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56946A392BFB90F3002C9FB6 /* ContentView.swift */; };
+		56946A3C2BFB90F6002C9FB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56946A3B2BFB90F6002C9FB6 /* Assets.xcassets */; };
+		56946A3F2BFB90F6002C9FB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56946A3E2BFB90F6002C9FB6 /* Preview Assets.xcassets */; };
+		56946A492BFB90F7002C9FB6 /* ParrotDayWadiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56946A482BFB90F7002C9FB6 /* ParrotDayWadiTests.swift */; };
+		56946A532BFB90F7002C9FB6 /* ParrotDayWadiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56946A522BFB90F7002C9FB6 /* ParrotDayWadiUITests.swift */; };
+		56946A552BFB90F7002C9FB6 /* ParrotDayWadiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56946A542BFB90F7002C9FB6 /* ParrotDayWadiUITestsLaunchTests.swift */; };
+		56946A632BFB9454002C9FB6 /* Indi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56946A622BFB9454002C9FB6 /* Indi.swift */; };
+		56B56EA92BFBB46A000D0FDA /* IndiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B56EA82BFBB46A000D0FDA /* IndiViewModel.swift */; };
+		56B56EAB2BFBB504000D0FDA /* IndiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B56EAA2BFBB504000D0FDA /* IndiView.swift */; };
+		56B56EAD2BFBB6F3000D0FDA /* IndiUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B56EAC2BFBB6F3000D0FDA /* IndiUseCase.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56946A452BFB90F7002C9FB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56946A2C2BFB90F3002C9FB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56946A332BFB90F3002C9FB6;
+			remoteInfo = ParrotDayWadi;
+		};
+		56946A4F2BFB90F7002C9FB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56946A2C2BFB90F3002C9FB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56946A332BFB90F3002C9FB6;
+			remoteInfo = ParrotDayWadi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56946A342BFB90F3002C9FB6 /* ParrotDayWadi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParrotDayWadi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56946A372BFB90F3002C9FB6 /* ParrotDayWadiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrotDayWadiApp.swift; sourceTree = "<group>"; };
+		56946A392BFB90F3002C9FB6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		56946A3B2BFB90F6002C9FB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56946A3E2BFB90F6002C9FB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		56946A442BFB90F7002C9FB6 /* ParrotDayWadiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParrotDayWadiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56946A482BFB90F7002C9FB6 /* ParrotDayWadiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrotDayWadiTests.swift; sourceTree = "<group>"; };
+		56946A4E2BFB90F7002C9FB6 /* ParrotDayWadiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParrotDayWadiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56946A522BFB90F7002C9FB6 /* ParrotDayWadiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrotDayWadiUITests.swift; sourceTree = "<group>"; };
+		56946A542BFB90F7002C9FB6 /* ParrotDayWadiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrotDayWadiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		56946A622BFB9454002C9FB6 /* Indi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indi.swift; sourceTree = "<group>"; };
+		56B56EA82BFBB46A000D0FDA /* IndiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndiViewModel.swift; sourceTree = "<group>"; };
+		56B56EAA2BFBB504000D0FDA /* IndiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndiView.swift; sourceTree = "<group>"; };
+		56B56EAC2BFBB6F3000D0FDA /* IndiUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndiUseCase.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56946A312BFB90F3002C9FB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56946A412BFB90F7002C9FB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56946A4B2BFB90F7002C9FB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56946A2B2BFB90F3002C9FB6 = {
+			isa = PBXGroup;
+			children = (
+				56946A362BFB90F3002C9FB6 /* ParrotDayWadi */,
+				56946A472BFB90F7002C9FB6 /* ParrotDayWadiTests */,
+				56946A512BFB90F7002C9FB6 /* ParrotDayWadiUITests */,
+				56946A352BFB90F3002C9FB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56946A352BFB90F3002C9FB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56946A342BFB90F3002C9FB6 /* ParrotDayWadi.app */,
+				56946A442BFB90F7002C9FB6 /* ParrotDayWadiTests.xctest */,
+				56946A4E2BFB90F7002C9FB6 /* ParrotDayWadiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56946A362BFB90F3002C9FB6 /* ParrotDayWadi */ = {
+			isa = PBXGroup;
+			children = (
+				56946A612BFB943F002C9FB6 /* Model */,
+				56B56EA72BFBB14E000D0FDA /* UseCase */,
+				56B56EA62BFBB144000D0FDA /* ViewModel */,
+				56B56EA52BFBB13C000D0FDA /* View */,
+				56946A372BFB90F3002C9FB6 /* ParrotDayWadiApp.swift */,
+				56946A392BFB90F3002C9FB6 /* ContentView.swift */,
+				56946A3B2BFB90F6002C9FB6 /* Assets.xcassets */,
+				56946A3D2BFB90F6002C9FB6 /* Preview Content */,
+			);
+			path = ParrotDayWadi;
+			sourceTree = "<group>";
+		};
+		56946A3D2BFB90F6002C9FB6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				56946A3E2BFB90F6002C9FB6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		56946A472BFB90F7002C9FB6 /* ParrotDayWadiTests */ = {
+			isa = PBXGroup;
+			children = (
+				56946A482BFB90F7002C9FB6 /* ParrotDayWadiTests.swift */,
+			);
+			path = ParrotDayWadiTests;
+			sourceTree = "<group>";
+		};
+		56946A512BFB90F7002C9FB6 /* ParrotDayWadiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				56946A522BFB90F7002C9FB6 /* ParrotDayWadiUITests.swift */,
+				56946A542BFB90F7002C9FB6 /* ParrotDayWadiUITestsLaunchTests.swift */,
+			);
+			path = ParrotDayWadiUITests;
+			sourceTree = "<group>";
+		};
+		56946A612BFB943F002C9FB6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				56946A622BFB9454002C9FB6 /* Indi.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		56B56EA52BFBB13C000D0FDA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				56B56EAA2BFBB504000D0FDA /* IndiView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		56B56EA62BFBB144000D0FDA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				56B56EA82BFBB46A000D0FDA /* IndiViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		56B56EA72BFBB14E000D0FDA /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				56B56EAC2BFBB6F3000D0FDA /* IndiUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56946A332BFB90F3002C9FB6 /* ParrotDayWadi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56946A582BFB90F7002C9FB6 /* Build configuration list for PBXNativeTarget "ParrotDayWadi" */;
+			buildPhases = (
+				56946A302BFB90F3002C9FB6 /* Sources */,
+				56946A312BFB90F3002C9FB6 /* Frameworks */,
+				56946A322BFB90F3002C9FB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParrotDayWadi;
+			productName = ParrotDayWadi;
+			productReference = 56946A342BFB90F3002C9FB6 /* ParrotDayWadi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56946A432BFB90F7002C9FB6 /* ParrotDayWadiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56946A5B2BFB90F7002C9FB6 /* Build configuration list for PBXNativeTarget "ParrotDayWadiTests" */;
+			buildPhases = (
+				56946A402BFB90F7002C9FB6 /* Sources */,
+				56946A412BFB90F7002C9FB6 /* Frameworks */,
+				56946A422BFB90F7002C9FB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56946A462BFB90F7002C9FB6 /* PBXTargetDependency */,
+			);
+			name = ParrotDayWadiTests;
+			productName = ParrotDayWadiTests;
+			productReference = 56946A442BFB90F7002C9FB6 /* ParrotDayWadiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		56946A4D2BFB90F7002C9FB6 /* ParrotDayWadiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56946A5E2BFB90F7002C9FB6 /* Build configuration list for PBXNativeTarget "ParrotDayWadiUITests" */;
+			buildPhases = (
+				56946A4A2BFB90F7002C9FB6 /* Sources */,
+				56946A4B2BFB90F7002C9FB6 /* Frameworks */,
+				56946A4C2BFB90F7002C9FB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56946A502BFB90F7002C9FB6 /* PBXTargetDependency */,
+			);
+			name = ParrotDayWadiUITests;
+			productName = ParrotDayWadiUITests;
+			productReference = 56946A4E2BFB90F7002C9FB6 /* ParrotDayWadiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56946A2C2BFB90F3002C9FB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					56946A332BFB90F3002C9FB6 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					56946A432BFB90F7002C9FB6 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 56946A332BFB90F3002C9FB6;
+					};
+					56946A4D2BFB90F7002C9FB6 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 56946A332BFB90F3002C9FB6;
+					};
+				};
+			};
+			buildConfigurationList = 56946A2F2BFB90F3002C9FB6 /* Build configuration list for PBXProject "ParrotDayWadi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56946A2B2BFB90F3002C9FB6;
+			productRefGroup = 56946A352BFB90F3002C9FB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56946A332BFB90F3002C9FB6 /* ParrotDayWadi */,
+				56946A432BFB90F7002C9FB6 /* ParrotDayWadiTests */,
+				56946A4D2BFB90F7002C9FB6 /* ParrotDayWadiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56946A322BFB90F3002C9FB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56946A3F2BFB90F6002C9FB6 /* Preview Assets.xcassets in Resources */,
+				56946A3C2BFB90F6002C9FB6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56946A422BFB90F7002C9FB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56946A4C2BFB90F7002C9FB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56946A302BFB90F3002C9FB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56946A632BFB9454002C9FB6 /* Indi.swift in Sources */,
+				56946A3A2BFB90F3002C9FB6 /* ContentView.swift in Sources */,
+				56B56EA92BFBB46A000D0FDA /* IndiViewModel.swift in Sources */,
+				56B56EAD2BFBB6F3000D0FDA /* IndiUseCase.swift in Sources */,
+				56946A382BFB90F3002C9FB6 /* ParrotDayWadiApp.swift in Sources */,
+				56B56EAB2BFBB504000D0FDA /* IndiView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56946A402BFB90F7002C9FB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56946A492BFB90F7002C9FB6 /* ParrotDayWadiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56946A4A2BFB90F7002C9FB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56946A552BFB90F7002C9FB6 /* ParrotDayWadiUITestsLaunchTests.swift in Sources */,
+				56946A532BFB90F7002C9FB6 /* ParrotDayWadiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56946A462BFB90F7002C9FB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56946A332BFB90F3002C9FB6 /* ParrotDayWadi */;
+			targetProxy = 56946A452BFB90F7002C9FB6 /* PBXContainerItemProxy */;
+		};
+		56946A502BFB90F7002C9FB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56946A332BFB90F3002C9FB6 /* ParrotDayWadi */;
+			targetProxy = 56946A4F2BFB90F7002C9FB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		56946A562BFB90F7002C9FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56946A572BFB90F7002C9FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56946A592BFB90F7002C9FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ParrotDayWadi/Preview Content\"";
+				DEVELOPMENT_TEAM = F6KDBC2B2W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzupis.ParrotDayWadi.ParrotDayWadi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56946A5A2BFB90F7002C9FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ParrotDayWadi/Preview Content\"";
+				DEVELOPMENT_TEAM = F6KDBC2B2W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzupis.ParrotDayWadi.ParrotDayWadi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		56946A5C2BFB90F7002C9FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6KDBC2B2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzupis.ParrotDayWadi.ParrotDayWadiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParrotDayWadi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ParrotDayWadi";
+			};
+			name = Debug;
+		};
+		56946A5D2BFB90F7002C9FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6KDBC2B2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzupis.ParrotDayWadi.ParrotDayWadiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParrotDayWadi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ParrotDayWadi";
+			};
+			name = Release;
+		};
+		56946A5F2BFB90F7002C9FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6KDBC2B2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzupis.ParrotDayWadi.ParrotDayWadiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParrotDayWadi;
+			};
+			name = Debug;
+		};
+		56946A602BFB90F7002C9FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6KDBC2B2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzupis.ParrotDayWadi.ParrotDayWadiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParrotDayWadi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56946A2F2BFB90F3002C9FB6 /* Build configuration list for PBXProject "ParrotDayWadi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56946A562BFB90F7002C9FB6 /* Debug */,
+				56946A572BFB90F7002C9FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56946A582BFB90F7002C9FB6 /* Build configuration list for PBXNativeTarget "ParrotDayWadi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56946A592BFB90F7002C9FB6 /* Debug */,
+				56946A5A2BFB90F7002C9FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56946A5B2BFB90F7002C9FB6 /* Build configuration list for PBXNativeTarget "ParrotDayWadiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56946A5C2BFB90F7002C9FB6 /* Debug */,
+				56946A5D2BFB90F7002C9FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56946A5E2BFB90F7002C9FB6 /* Build configuration list for PBXNativeTarget "ParrotDayWadiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56946A5F2BFB90F7002C9FB6 /* Debug */,
+				56946A602BFB90F7002C9FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56946A2C2BFB90F3002C9FB6 /* Project object */;
+}
